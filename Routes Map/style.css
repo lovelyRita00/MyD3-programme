@@ -1,0 +1,116 @@
+
+h1{
+  /*font-family:"Libre Baskerville";*/
+
+	font-family: "Source Sans Pro",sans-serif;
+	font-style: normal;
+	font-weight: 800;
+
+ /* font-size:22px;*/
+}
+
+body{
+  /*font-family: 'Crimson Text';*/
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:18px;
+}
+
+.instruction{
+  color: grey;
+  font-size: .8em;
+}
+
+h3{
+  font-weight: 600;
+}
+
+input {
+  background: transparent;
+  border: 1px solid;
+  outline-color: black;
+  box-shadow: white;
+  width: 300px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* --------------------- */
+/* SVG STYLES */
+/* --------------------- */
+
+.baseMap{
+  stroke-width:0.75px;
+  stroke: #000;
+  fill:rgb(238,238,238);
+  /*opacity:0.5;*/
+}
+
+.globe {
+	fill: rgb(255,255,255);
+}
+
+.cities_end {
+  stroke: red;
+  stroke-width: 1px;
+  stroke-opacity: 1;
+  }
+
+.country{
+  font-size:16px;
+  font-family: "Helvetica Neue";
+  fill:black;
+  /*opacity: 0.7;*/
+}
+
+
+.line{
+/*  stroke:rgba(0, 0, 0, 0.3);*/
+  stroke:red;
+  stroke-width:2px;
+  fill:none;
+  /*stroke-dasharray:3, 3;*/
+}
+
+.geo-globe {
+  fill: rgba(236,249,255,0.8);
+/*  fill:white;*/
+    }
+
+#tooltip-container {
+  background-color: #fff;
+  color: #000;
+  padding: 12px;
+}
+
+.tooltip_value {
+  margin-left: 20px;
+  float: center;
+}
+
+
+.map-row {
+	text-align: center;
+	position: relative;
+  right: -220px;
+
+}
+
+#map {
+	width: 100%;
+	max-width: 650px;
+	position: relative;
+	display: inline-block;
+}
+
+.overlay {
+	fill: #FFF;
+}
+
+.reset-btn {
+	margin: 0 auto;
+}
+
+.globe-text {
+	padding-top: 30px;
+	text-align: left;
+}
